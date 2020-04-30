@@ -12,7 +12,6 @@ public class MainController {
 
     @GetMapping("/")
     public String helloWorld() {
-
         return "Hello World";
     }
 
